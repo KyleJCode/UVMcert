@@ -1,0 +1,9 @@
+source /apps/settings
+export UVMHOME=`ncroot`/tools/methodology/UVM/CDNS-1.1d
+
+echo $UVMHOME
+echo $CDS_LIC_FILE
+xrun -version
+
+cd ~/UVMcert/UVMcert/uvma_training_1.2.6rev1/uvm/test_install
+xrun -f run.f
