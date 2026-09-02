@@ -1,19 +1,21 @@
 /*-----------------------------------------------------------------
 File name     : run.f
-Description   : lab01_data simulator run template file
-Notes         : From the Cadence "SystemVerilog Advanced Verification with UVM" training
-              : Set $UVMHOME to install directory of UVM library
--------------------------------------------------------------------
-Copyright Cadence Design Systems (c)2015
+Description   : lab02_test simulator run file
+Notes         : Set $UVMHOME to install directory of UVM library
 -----------------------------------------------------------------*/
-// 64 bit option for AWS labs
+
 -64
 
- -uvmhome $UVMHOME
+-uvmhome $UVMHOME
 
-// include directories
-//*** add incdir include directories here
++UVM_TESTNAME=base_test
++UVM_VERBOSITY=UVM_HIGH
 
-// compile files
-//*** add compile files here
+// Include directories
+-incdir ../sv
 
+// Compile files
+../sv/yapp_pkg.sv
+router_tb.sv
+router_test_lib.sv
+top.sv
