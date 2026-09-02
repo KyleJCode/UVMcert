@@ -7,6 +7,6 @@ class router_tb extends uvm_env;
      
     virtual function void build_phase(uvm_phase phase);
         super.build_phase(phase);
-        'uvm_info("BLD", "BUILD TB EXECUTED", UVM_HIGH);
+        `uvm_info("BLD", "BUILD TB EXECUTED", UVM_HIGH);
     endfunction
 endclass
