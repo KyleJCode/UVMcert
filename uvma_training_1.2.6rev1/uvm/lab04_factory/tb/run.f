@@ -1,21 +1,17 @@
-/*-----------------------------------------------------------------
-File name     : run.f
-Description   : lab02_test simulator run file
-Notes         : Set $UVMHOME to install directory of UVM library
------------------------------------------------------------------*/
-
+// Run file for UVM setup
 -64
-
 -uvmhome $UVMHOME
-
-+UVM_TESTNAME=base_test
-+UVM_VERBOSITY=UVM_HIGH
-
-// Include directories
 -incdir ../sv
 
-// Compile files
++UVM_VERBOSITY=UVM_LOW
+
+//+UVM_TESTNAME=base_test
++UVM_TESTNAME=short_packet_test
+//+UVM_TESTNAME=set_config_test
+//+UVM_TESTNAME=test2
+
+//+SVSEED=random
+
 ../sv/yapp_pkg.sv
-router_tb.sv
-router_test_lib.sv
+
 top.sv
