@@ -1,0 +1,712 @@
+xrun(64): 24.09-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s013: Started on Sep 02, 2026 at 13:21:58 EDT
+xrun
+	-clean
+	-f run.f
+		-64
+		-uvmhome /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d
+		+UVM_TESTNAME=base_test
+		+UVM_VERBOSITY=UVM_HIGH
+		-incdir ../sv
+		../sv/yapp_pkg.sv
+		router_tb.sv
+		router_test_lib.sv
+		top.sv
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_HIGH
+
+xrun: *N,CLEAN: Removing existing directory ./xcelium.d.
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xmvlog: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xmvlog: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+file: ../sv/yapp_pkg.sv
+	package worklib.yapp_pkg:sv
+		errors: 0, warnings: 0
+file: router_tb.sv
+file: router_test_lib.sv
+file: top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 16
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+DEFINE std       ./STD
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmelab: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xmelab: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		$unit_0x17f889d8
+		yapp_pkg
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+DEFINE std       ./STD
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmvlog_cg: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xmvlog_cg: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+		worklib.top:sv <0x4f149e24>
+			streams:  42, words: 26570
+		worklib.yapp_pkg:sv <0x3b1e5d97>
+			streams:  24, words: 66378
+		worklib.\$unit_0x17f889d8 :compilation_unit <0x5bac432f>
+			streams:  41, words: 25918
+		worklib.cdns_uvm_pkg:sv <0x246c40b2>
+			streams: 172, words: 247552
+		worklib.cdns_uvmapi:svp <0x51a9309b>
+			streams:  27, words: 28684
+		worklib.cdns_assert2uvm_pkg:sv <0x1d7ee09e>
+			streams:   3, words:  1654
+		worklib.uvm_pkg:sv <0x34c71ba4>
+			streams: 4534, words: 6805617
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Modules:                        1       1
+		Verilog packages:               5       5
+		Registers:                 12,973  10,113
+		Named events:                   4      12
+		Initial blocks:               264     150
+		Parallel blocks:               26      27
+		Assertions:                     2       2
+		Compilation units:              1       1
+		SV Class declarations:        194     308
+		SV Class specializations:     347     347
+	Writing initial simulation snapshot: worklib.top:sv
+DEFINE std       ./STD
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
+DEFINE synopsys  ./SYNOPSYS
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,2): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/SYNOPSYS' (cds.lib command ignored).
+DEFINE ieee      ./IEEE
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,3): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/IEEE' (cds.lib command ignored).
+DEFINE ambit     ./AMBIT
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,4): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/AMBIT' (cds.lib command ignored).
+DEFINE vital_memory ./VITAL_MEMORY
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,5): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/VITAL_MEMORY' (cds.lib command ignored).
+DEFINE ncutils ./NCUTILS
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,6): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCUTILS' (cds.lib command ignored).
+DEFINE ncinternal ./NCINTERNAL
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,7): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCINTERNAL' (cds.lib command ignored).
+DEFINE ncmodels ./NCMODELS
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,8): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/NCMODELS' (cds.lib command ignored).
+DEFINE xmutils ./XMUTILS
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,9): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMUTILS' (cds.lib command ignored).
+DEFINE xminternal ./XMINTERNAL
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,10): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMINTERNAL' (cds.lib command ignored).
+DEFINE xmmodels ./XMMODELS
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,11): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/XMMODELS' (cds.lib command ignored).
+DEFINE cds_assertions ./CDS_ASSERTIONS
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,12): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_ASSERTIONS' (cds.lib command ignored).
+DEFINE cds_inhconn ./CDS_INHCONN
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,13): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_INHCONN' (cds.lib command ignored).
+DEFINE cds_spicelib ./CDS_SPICELIB
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_SPICELIB' (cds.lib command ignored).
+DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
+|
+xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
+DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
+|
+xmsim: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xcelium> source /apps/cds/xcelium2409/tools/xcelium/files/xmsimrc
+xcelium> source /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (24.09-s013)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'router_tb' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'base_test' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO router_test_lib.sv(19) @ 0: uvm_test_top [BLD] BASE_TEST EXECUTED BLD
+UVM_INFO router_tb.sv(14) @ 0: uvm_test_top.tb [BLD] BUILD TB EXECUTED
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+------------------------------------
+Name          Type       Size  Value
+------------------------------------
+uvm_test_top  base_test  -     @2360
+  tb          router_tb  -     @2407
+------------------------------------
+
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    4
+UVM_WARNING :    2
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[BLD]     2
+[RNTST]     1
+[TPRGED]     2
+[UVMTOP]     1
+Simulation complete via $finish(1) at time 0 FS + 179
+/apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.09-s013: Exiting on Sep 02, 2026 at 13:22:05 EDT  (total: 00:00:07)

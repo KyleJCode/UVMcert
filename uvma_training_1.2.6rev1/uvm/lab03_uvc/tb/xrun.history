@@ -1,0 +1,2 @@
+#e1(02Sep2026:13:21:58): source ./xcelium.d/env.d/env.history.02Sep2026_13_21_58
+s1(02Sep2026:13:21:58):  xrun -clean -f run.f 
