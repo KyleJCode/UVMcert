@@ -72,16 +72,124 @@ class yapp_5_packets extends yapp_base_seq;
   `uvm_object_utils(yapp_5_packets)
 
   // Constructor
-  function new(string name="yapp_5_packets");
-    super.new(name);
-  endfunction
+    function new(string name="yapp_5_packets");
+        super.new(name);
+    endfunction
 
   // Sequence body definition
-  virtual task body();
-    `uvm_info(get_type_name(), "Executing yapp_5_packets sequence", UVM_LOW)
-     repeat(5)
-      `uvm_do(req)
-  endtask
+    virtual task body();
+        `uvm_info(get_type_name(), "Executing yapp_5_packets sequence", UVM_LOW)
+        repeat(5)
+        `uvm_do(req)
+    endtask
   
 endclass : yapp_5_packets
 
+// 1 random packets sent to addr 1
+class yapp_1_seq extends yapp_base_seq;
+    `uvm_object_utils(yapp_1_seq)
+
+    function new(string name = "yapp_1_seq");
+        super.new(name);
+    endfunction : new
+
+    virtual task body();
+        `uvm_info(get_type_name(), "yapp_1_seq executing", UVM_LOW);
+        `uvm_do_with(req, {req.addr == 2'b01;})
+    endtask
+
+endclass : yapp_1_seq
+
+// 3 random packets sent to addr 0,1,2 in order
+class yapp_012_seq extends yapp_base_seq;
+    `uvm_object_utils(yapp_012_seq)
+
+    function new(string name = "yapp_012_seq");
+        super.new(name);
+    endfunction : new
+
+    virtual task body();
+        `uvm_info(get_type_name(), "yapp_012_seq executing", UVM_LOW);
+        `uvm_do_with(req, {req.addr == 2'b00;})
+        `uvm_do_with(req, {req.addr == 2'b01;})
+        `uvm_do_with(req, {req.addr == 2'b10;})
+    endtask : body
+
+endclass : yapp_012_seq
+
+// 3 random packets sent to addr 1 (nested seq)
+class yapp_111_seq extends yapp_base_seq;
+    `uvm_object_utils(yapp_111_seq)
+
+    yapp_1_seq yapp_addr_1;
+
+    function new(string name = "yapp_111_seq");
+        super.new(name);
+    endfunction : new
+
+    virtual task body();
+        `uvm_info(get_type_name(), "yapp_111_seq executing", UVM_LOW);
+        repeat (3)
+            `uvm_do(yapp_addr_1)
+    endtask : body
+
+endclass : yapp_111_seq
+
+class yapp_repeat_addr_seq extends yapp_base_seq;
+    `uvm_object_utils(yapp_repeat_addr_seq)
+
+    rand bit [1:0] addr;
+    constraint no_three_c {addr != 2'b11;}
+
+    function new(string name = "yapp_repeat_addr_seq");
+        super.new(name);
+    endfunction : new
+
+    virtual task body();
+        `uvm_info(get_type_name(), "yapp_repeat_addr_seq executing", UVM_LOW);
+        repeat (2)  
+            `uvm_do_with(req, {req.addr == addr})
+    endtask : body
+
+endclass : yapp_repeat_addr_seq
+
+class yapp_incr_payload_seq extends yapp_base_seq;
+    `uvm_object_utils(yapp_incr_payload_seq)
+
+    function new(string name = "yapp_incr_payload_seq");
+        super.new(name);
+    endfunction : new
+
+    virtual task body();
+        `uvm_info(get_type_name(), "yapp_incr_payload_seq executing", UVM_LOW);
+        `uvm_create(req);
+        req.randomize();
+        foreach (req.payload [i])
+            req.payload[i] = i;
+        req.set_parity();
+        `uvm_send(req);
+    endtask : body
+endclass: yapp_incr_payload_seq
+
+class yapp_exhaustive_seq extends yapp_base_seq;
+    `uvm_object_utils(yapp_exhaustive_seq)
+     
+    function new(string name = "yapp_exhaustive_seq");
+        super.new(name);
+    endfunction : new 
+
+    yapp_1_seq seq_1;
+    yapp_012_seq seq_012;
+    yapp_111_seq seq_111;
+    yapp_repeat_addr_seq seq_repeat;
+    yapp_incr_payload_seq seq_incr;
+
+    virtual task body();
+        `uvm_info(get_type_name(), "yapp_exhaustive_seq test executing", UVM_LOW);
+        `uvm_do(seq_1);
+        `uvm_do(seq_012);
+        `uvm_do(seq_111);
+        `uvm_do(seq_repeat);
+        `uvm_do(seq_incr);
+    endtask : body
+endclass

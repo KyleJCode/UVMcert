@@ -7,3 +7,7 @@ xrun -version
 
 cd ~/UVMcert/UVMcert/uvma_training_1.2.6rev1/uvm/test_install
 xrun -f run.f
+
+
+
+
