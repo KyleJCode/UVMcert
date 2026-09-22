@@ -1,0 +1,11 @@
+# Xcelium/xrun simulator artifacts
+xcelium.d/
+xrun.log
+xrun.history
+*.log
+*.history
+*.key
+INCA_libs/
+.simvision/
+*.trn
+*.shm/
