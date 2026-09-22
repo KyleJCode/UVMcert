@@ -11,8 +11,6 @@ UVM_PLI
 -INCDIR
 ../sv
 ../sv/yapp_pkg.sv
-router_tb.sv
-router_test_lib.sv
 top.sv
 -CDSLIB
 ./xcelium.d/run.lnx8664.24.09.d/cdsrun.lib

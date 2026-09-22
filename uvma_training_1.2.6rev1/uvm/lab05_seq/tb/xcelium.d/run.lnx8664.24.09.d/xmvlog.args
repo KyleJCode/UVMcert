@@ -10,9 +10,8 @@
 UVM_PLI
 -INCDIR
 ../sv
+-uvmnocdnsextra
 ../sv/yapp_pkg.sv
-router_tb.sv
-router_test_lib.sv
 top.sv
 -CDSLIB
 ./xcelium.d/run.lnx8664.24.09.d/cdsrun.lib
@@ -22,8 +21,6 @@ top.sv
 /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/sv/src
 -DEFINE
 USE_PARAMETERIZED_WRAPPER
--I_INCDIR
-/apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/additions/sv
 -no_analogsolver
 -MESSAGES
 -UPDATE

@@ -1,7 +1,7 @@
 class yapp_env extends uvm_env;
     `uvm_component_utils(yapp_env)
 
-    yapp_tx_agent agent;
+    yapp_tx_agent tx_agent;
 
     function new(string name, uvm_component parent);
         super.new(name, parent);

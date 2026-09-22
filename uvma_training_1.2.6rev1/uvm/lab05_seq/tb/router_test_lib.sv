@@ -79,7 +79,7 @@ class incr_payload_test extends base_test;
 
 endclass : incr_payload_test
 
-class exhaustive_seq_test extends base_class;
+class exhaustive_seq_test extends base_test;
     `uvm_component_utils(exhaustive_seq_test)
 
     function new(string name, uvm_component parent);

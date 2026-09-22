@@ -148,7 +148,7 @@ class yapp_repeat_addr_seq extends yapp_base_seq;
     virtual task body();
         `uvm_info(get_type_name(), "yapp_repeat_addr_seq executing", UVM_LOW);
         repeat (2)  
-            `uvm_do_with(req, {req.addr == addr})
+            `uvm_do_with(req, {req.addr == addr;})
     endtask : body
 
 endclass : yapp_repeat_addr_seq
@@ -163,7 +163,7 @@ class yapp_incr_payload_seq extends yapp_base_seq;
     virtual task body();
         `uvm_info(get_type_name(), "yapp_incr_payload_seq executing", UVM_LOW);
         `uvm_create(req);
-        req.randomize();
+        void'(req.randomize());
         foreach (req.payload [i])
             req.payload[i] = i;
         req.set_parity();

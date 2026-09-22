@@ -2,10 +2,11 @@
 // File created by:  xrun
 // Do not modify this file
 //
-+UVM_VERBOSITY=UVM_HIGH
++UVM_VERBOSITY=UVM_LOW
 -loadpli
 /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/additions/sv/lib/64bit/libuvmpli.so:uvm_pli_boot
-+UVM_TESTNAME=base_test
++UVM_TESTNAME=short_packet_test
++UVM_TESTNAME=exhaustive_seq_test
 -no_analogsolver
 -MESSAGES
 -dms_perf

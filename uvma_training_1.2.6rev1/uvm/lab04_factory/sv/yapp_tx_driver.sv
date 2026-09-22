@@ -2,7 +2,7 @@ class yapp_tx_driver extends uvm_driver #(yapp_packet);
 
     `uvm_component_utils(yapp_tx_driver)
     
-    virtual function new(string name, uvm_component parent);
+    function new(string name, uvm_component parent);
         super.new(name, parent);
     endfunction : new
     

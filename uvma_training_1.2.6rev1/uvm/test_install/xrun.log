@@ -1,5 +1,5 @@
 xrun(64): 24.09-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	24.09-s013: Started on Sep 02, 2026 at 13:01:31 EDT
+TOOL:	xrun(64)	24.09-s013: Started on Sep 21, 2026 at 13:58:46 EDT
 xrun
 	-f run.f
 		-64
@@ -50,9 +50,6 @@ xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
-|
-xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
 DEFINE std       ./STD
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
@@ -98,9 +95,6 @@ xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
-|
-xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
 DEFINE std       ./STD
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
@@ -146,9 +140,6 @@ xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
-|
-xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
 DEFINE std       ./STD
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
@@ -194,9 +185,6 @@ xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
-|
-xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
 DEFINE std       ./STD
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
@@ -242,9 +230,6 @@ xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
-|
-xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
 DEFINE std       ./STD
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
@@ -290,9 +275,6 @@ xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.lib
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xrun: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
-|
-xrun: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
 DEFINE std       ./STD
 |
 xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,1): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/STD' (cds.lib command ignored).
@@ -338,9 +320,6 @@ xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,14): cds.li
 DEFINE cds_amsfunctions ./CDS_AMSFUNCTIONS
 |
 xmsim: *W,DLCPTH (/apps/cds/xcelium2409/tools/inca/files/cdsvhdl.lib,15): cds.lib Invalid path '/apps/cds/xcelium2409/tools/inca/files/CDS_AMSFUNCTIONS' (cds.lib command ignored).
-DEFINE avTech /apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech
-|
-xmsim: *W,DLCPTH (./cds.lib,5): cds.lib Invalid path '/apps/cds/assura/tools.lnx86/assura/etc/avtech/avTech' (cds.lib command ignored).
 Loading snapshot worklib.top:sv .................... Done
 SVSEED default: 1
 xcelium> source /apps/cds/xcelium2409/tools/xcelium/files/xmsimrc
@@ -392,4 +371,4 @@ UVM_FATAL :    0
 Simulation complete via $finish(1) at time 0 FS + 179
 /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
 xcelium> exit
-TOOL:	xrun(64)	24.09-s013: Exiting on Sep 02, 2026 at 13:01:34 EDT  (total: 00:00:03)
+TOOL:	xrun(64)	24.09-s013: Exiting on Sep 21, 2026 at 13:58:50 EDT  (total: 00:00:04)

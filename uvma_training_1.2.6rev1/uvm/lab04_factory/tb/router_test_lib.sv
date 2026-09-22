@@ -45,13 +45,13 @@ class short_packet_test extends base_test;
 endclass : short_packet_test
 
 class set_config_test extends base_test;
-    `uvm_component_utils(set_config_test);
+    `uvm_component_utils(set_config_test)
 
     function new(string name, uvm_component parent);
         super.new(name, parent);
     endfunction
 
-    virtual function build_phase(uvm_phase phase);
+    virtual function void build_phase(uvm_phase phase);
         uvm_config_int::set(this, "tb.yapp.tx_agent", "is_active", UVM_PASSIVE);
         super.build_phase(phase);
     endfunction

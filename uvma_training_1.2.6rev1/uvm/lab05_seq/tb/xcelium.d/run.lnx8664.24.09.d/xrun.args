@@ -2,6 +2,6 @@
 // File created by:  xrun
 // Do not modify this file
 //
--clean
 -f
 run.f
++UVM_TESTNAME=exhaustive_seq_test

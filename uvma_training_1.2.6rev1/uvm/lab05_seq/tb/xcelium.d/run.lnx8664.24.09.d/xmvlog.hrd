@@ -4,9 +4,8 @@
 //
 -INCDIR
 ../sv
+-uvmnocdnsextra
 -I_INCDIR
 /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/sv/src
 -DEFINE
 USE_PARAMETERIZED_WRAPPER
--I_INCDIR
-/apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/additions/sv

@@ -2,6 +2,7 @@
 -64
 -uvmhome $UVMHOME
 -incdir ../sv
+-uvmnocdnsextra
 
 +UVM_VERBOSITY=UVM_LOW
 

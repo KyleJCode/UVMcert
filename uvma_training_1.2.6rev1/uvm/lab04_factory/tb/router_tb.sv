@@ -1,6 +1,6 @@
 import uvm_pkg::*;
 `include "uvm_macros.svh"
-
+import yapp_pkg::*;
 class router_tb extends uvm_env;
 
     `uvm_component_utils(router_tb)

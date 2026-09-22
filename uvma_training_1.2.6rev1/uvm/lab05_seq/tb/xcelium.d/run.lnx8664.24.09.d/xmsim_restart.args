@@ -4,12 +4,13 @@
 //
 -INPUT
 "@source /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl"
-+UVM_VERBOSITY=UVM_HIGH
++UVM_VERBOSITY=UVM_LOW
 -uvmhome
 /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d
 -sv_lib
 /apps/cds/xcelium2409/tools/methodology/UVM/CDNS-1.1d/additions/sv/lib/64bit/libuvmpli.so
-+UVM_TESTNAME=base_test
++UVM_TESTNAME=short_packet_test
++UVM_TESTNAME=exhaustive_seq_test
 -MESSAGES
 -RUN
 -SV_LIB
@@ -17,7 +18,7 @@
 +EMGRLOG
 xrun.log
 -XLSTIME
-1788369718
+1790014694
 -XLKEEP
 -XLMODE
 ./xcelium.d/run.lnx8664.24.09.d
@@ -31,4 +32,4 @@ xrun
 -XLVERSION
 "TOOL:	xrun(64)	24.09-s013"
 -XLNAME
-./xcelium.d/run.lnx8664.24.09.d/ece-lnx-04_287822
+./xcelium.d/run.lnx8664.24.09.d/ece-lnx-05_745356

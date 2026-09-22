@@ -1,2 +1,16 @@
-#e1(02Sep2026:13:21:58): source ./xcelium.d/env.d/env.history.02Sep2026_13_21_58
-s1(02Sep2026:13:21:58):  xrun -clean -f run.f 
+#e1(21Sep2026:13:55:27): source ./xcelium.d/env.d/env.history.21Sep2026_13_55_27
+s1(21Sep2026:13:55:27):  xrun -f run.f +UVM_TESTNAME=exhaustive_seq_test 
+#e2(21Sep2026:13:56:58): source ./xcelium.d/env.d/env.history.21Sep2026_13_56_58
+s2(21Sep2026:13:56:58):  xrun -f run.f +UVM_TESTNAME=exhaustive_seq_test 
+#e3(21Sep2026:13:59:19): source ./xcelium.d/env.d/env.history.21Sep2026_13_59_19
+s3(21Sep2026:13:59:19):  xrun -f run.f +UVM_TESTNAME=exhaustive_seq_test 
+#e4(21Sep2026:14:05:11): source ./xcelium.d/env.d/env.history.21Sep2026_14_05_11
+s4(21Sep2026:14:05:11):  xrun -f run.f +UVM_TESTNAME=exhaustive_seq_test 
+#e5(21Sep2026:14:11:01): source ./xcelium.d/env.d/env.history.21Sep2026_14_11_01
+s5(21Sep2026:14:11:01):  xrun -f run.f +UVM_TESTNAME=exhaustive_seq_test 
+#e6(21Sep2026:14:15:46): source ./xcelium.d/env.d/env.history.21Sep2026_14_15_46
+s6(21Sep2026:14:15:46):  xrun -f run.f +UVM_TESTNAME=exhaustive_seq_test 
+#e7(21Sep2026:14:16:54): source ./xcelium.d/env.d/env.history.21Sep2026_14_16_54
+s7(21Sep2026:14:16:54):  xrun -f run.f +UVM_TESTNAME=exhaustive_seq_test 
+#e8(21Sep2026:14:18:14): source ./xcelium.d/env.d/env.history.21Sep2026_14_18_14
+s8(21Sep2026:14:18:14):  xrun -f run.f +UVM_TESTNAME=exhaustive_seq_test 
